@@ -7,7 +7,7 @@ STM32F407VET6 - Grown
 
 #ifndef __BT_CONTROL_H__
 #define __BT_CONTROL_H__
-
+ 
 void bt_begin();
 void on_receive_bt(String line_in);
 void setup_rtc(String msg);
